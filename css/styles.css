@@ -52,7 +52,6 @@ p {
 
 .header-navigation {
   display: flex;
-  gap: 40px;
   align-items: center;
 }
 
@@ -740,6 +739,147 @@ p {
   border: none;
 }
 
-.policy-check:focus + .label-policy .checkbox-icon-select {
-  border: 2px solid #404bbf;
+/* TABLET */
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 766px;
+  }
+  .section {
+    padding: 96px 0 96px 0;
+  }
+
+  /* HEADER TABLET */
+
+  .logo {
+    margin-right: 120px;
+  }
+  .address-list {
+    flex-direction: column;
+    gap: 12px;
+    padding: 16px 0;
+  }
+  .address-link {
+    padding: 0;
+    display: inline-block;
+  }
+
+  /* HERO TABLET */
+
+  .hero {
+    padding: 112px 0;
+    max-width: 768px;
+  }
+  .hero-title {
+    margin-bottom: 36px;
+  }
+
+  /* Section 2 TABLET */
+
+  .strategy-icon-container {
+    visibility: hidden;
+    position: absolute;
+  }
+  .our-strategy-list {
+    flex-wrap: wrap;
+    row-gap: 72px;
+    column-gap: 24px;
+  }
+  .our-strategy-item {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+  .our-strategy-type {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.111;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+  }
+  .our-strategy-type-description {
+    font-weight: 500;
+  }
+
+  /* Section 3 TABLET */
+
+  .our-team-list {
+    flex-wrap: wrap;
+    row-gap: 64px;
+    column-gap: 24px;
+  }
+  .our-team-item {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+
+  /* Section 4 TABLET */
+
+  .our-portfolio-list {
+    flex-wrap: wrap;
+    row-gap: 72px;
+    column-gap: 24px;
+  }
+  .our-portfolio-item {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+
+  /* Footer TABLET */
+
+  .footer {
+    height: 456px;
+    padding-top: 97.5px;
+    padding-bottom: 96px;
+    padding-left: 108px;
+  }
+  .footer-container {
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 72px;
+  }
+  .footer-logo-container {
+    margin-right: 0;
+  }
+
+  /* SSubscribe TABLET */
+  .footer-subscribe-container {
+    margin-left: 0;
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 320px) {
+  .container {
+    max-width: 288px;
+  }
+  .section {
+    padding: 96px 0 96px 0;
+  }
+  /* Header MOBILE */
+  .header-navigation-list .address {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  /* Hero 1 MOBILE */
+
+  .hero {
+    padding: 72px 0;
+    max-width: 288px;
+  }
+  .hero-title {
+    color: #fff;
+    font-size: 36px;
+    line-height: 1.111;
+    text-align: center;
+    letter-spacing: 0.02em;
+    max-width: 288px;
+    margin-bottom: 72px;
+  }
+
+  .footer {
+    height: 664px;
+    padding-left: 0;
+  }
+  .footer-container {
+    flex-direction: column;
+  }
 }
