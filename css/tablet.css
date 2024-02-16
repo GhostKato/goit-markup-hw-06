@@ -1,0 +1,245 @@
+/* Border Header of */
+@media screen and (min-width: 321px) and (max-width: 767px) {
+  .header-border {
+    border-bottom: none;
+    box-shadow: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+
+  /* Header Tab */
+
+  .header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 0;
+    padding-bottom: 0;
+    align-items: center;
+    height: 72px;
+  }
+
+  .header-navigation {
+    display: flex;
+    align-items: center;
+  }
+
+  .header-navigation-list {
+    display: flex;
+    gap: 40px;
+  }
+  .open-menu-button {
+    display: none;
+  }
+
+  .header-container .logo {
+    margin-right: 120px;
+  }
+
+  /* Address Tab */
+
+  .address-list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  /* Hero 1 Tab */
+
+  .hero {
+    padding: 112px 0;
+    max-width: 768px;
+  }
+  .hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    max-width: 496px;
+    margin-bottom: 36px;
+  }
+
+  /* Section 2 Our Strategy Tab */
+
+  .our-strategy-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 72px;
+    column-gap: 24px;
+  }
+  .our-strategy-item {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+
+  /* Section 3 Our Team Tab*/
+
+  .our-team-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 64px;
+    column-gap: 24px;
+    margin-left: 92px;
+    margin-right: 92px;
+  }
+  .our-team-item {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+
+  /* Section 4 Our Portfolio Tab */
+
+  .our-portfolio-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 72px;
+    column-gap: 24px;
+  }
+  .our-portfolio-item {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+
+  /* Footer Tab */
+
+  .footer-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 108px;
+    column-gap: 24px;
+  }
+  .footer-information {
+    max-width: 264px;
+  }
+  .footer .logo {
+    text-align: start;
+  }
+
+  /* Social-media Tab*/
+
+  .title-social-media {
+    text-align: start;
+  }
+
+  /* Subscribe Tab */
+
+  .subscribe-container {
+    flex-direction: row;
+    gap: 24px;
+  }
+  .input-footer-email {
+    width: 264px;
+  }
+  .subscribe-text {
+    text-align: left;
+  }
+
+  /* Footer Tab*/
+
+  .footer {
+    height: 456px;
+  }
+
+  .footer-information {
+    max-width: 264px;
+  }
+
+  /* Modal Window */
+
+  .modal-window {
+    width: 408px;
+  }
+}
+
+/* Desktop */
+
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .section {
+    padding: 120px 0 120px 0;
+  }
+
+  /* Header Desktop */
+
+  .header-container .logo {
+    margin-right: 76px;
+  }
+  .header-container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .header-navigation {
+    padding-right: 332px;
+  }
+
+  /* Address Desktop*/
+
+  .address-list {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  /* Hero 1 Desktop */
+
+  .hero {
+    padding: 188px 0;
+    max-width: 1440px;
+  }
+  .hero-title {
+    margin-bottom: 48px;
+  }
+
+  /* Section 2 Our Strategy Desktop*/
+  .strategy-icon-container {
+    display: flex;
+  }
+  .our-strategy-list {
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+  .our-strategy-item {
+    flex-basis: calc((100% - 3 * 24px) / 4);
+    border-radius: 0px 0px 4px 4px;
+  }
+  .our-strategy-type {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+  .our-strategy-type-description {
+    font-weight: 400;
+  }
+
+  /* Section 3 Our Team Desktop*/
+
+  .our-team-list {
+    flex-wrap: nowrap;
+    gap: 24px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .our-team-item {
+    flex-basis: calc((100% - 72px) / 4);
+  }
+
+  /* Section 4 Our Portfolio Desktop*/
+
+  .our-portfolio-list {
+    row-gap: 48px;
+    column-gap: 24px;
+  }
+  .our-portfolio-item {
+    flex-basis: calc((100% - 48px) / 3);
+  }
+
+  /* Footer Desktop*/
+
+  .footer {
+    padding: 100px 0;
+    height: 312px;
+  }
+}
