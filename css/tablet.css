@@ -53,6 +53,25 @@
   .hero {
     padding: 112px 0;
     max-width: 768px;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-tab.jpg);
+  }
+
+  @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          to bottom,
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-tab@2x.jpg);
+    }
   }
   .hero-title {
     font-size: 56px;
@@ -147,6 +166,12 @@
 
   .modal-window {
     width: 408px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .checkbox-icon-select {
+    top: -1px;
   }
 }
 
@@ -241,5 +266,19 @@
   .footer {
     padding: 100px 0;
     height: 312px;
+  }
+
+  .footer-container {
+    flex-wrap: wrap;
+    padding-left: 156px;
+    column-gap: 0;
+  }
+
+  .footer-logo-container {
+    margin-right: 120px;
+  }
+
+  .footer-Social-media-container {
+    margin-right: 80px;
   }
 }
