@@ -1,10 +1,4 @@
-/* Border Header of */
-@media screen and (min-width: 321px) and (max-width: 767px) {
-  .header-border {
-    border-bottom: none;
-    box-shadow: none;
-  }
-}
+/* Tablet */
 
 @media screen and (min-width: 768px) {
   .container {
