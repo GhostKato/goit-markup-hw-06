@@ -763,6 +763,10 @@ p {
   left: -25px;
 }
 
+.checkbox-text {
+  display: inline-block;
+}
+
 .policy-check:checked + .label-policy .checkbox-icon-select {
   background-color: #404bbf;
   fill: #f4f4fd;
