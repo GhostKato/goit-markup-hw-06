@@ -192,10 +192,7 @@
   .header-container .logo {
     margin-right: 76px;
   }
-  .header-container {
-    padding-left: 0;
-    padding-right: 0;
-  }
+
   .header-navigation {
     padding-right: 332px;
   }
@@ -290,8 +287,9 @@
 
   .footer-container {
     flex-wrap: wrap;
-    padding-left: 156px;
+    justify-content: center;
     column-gap: 0;
+    padding-left: 0;
   }
 
   .footer-logo-container {
